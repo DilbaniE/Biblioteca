@@ -33,26 +33,27 @@ if(isset($_POST['submit'])){
     <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 
-<body>
-    <h1></h1>
-    <div class="container">
+<body >
+    <div class="container bg-dark text-light  ">
         <h1 class="text-center">Agregar Libro</h1>
         <form method="post">
-            <div class="mb-3 my-5">
-                <label>Titulo Del Libro</label>
-                <input type="text" class="form-control" name="titulo" autocomplete="off" placeholder="Ingresa el titulo del libro" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="mb-3 my-2 m-5">
+                <label>Titulo</label>
+                <input type="text" class="form-control" name="titulo" placeholder="Cien años de soledad">
             
             </div>
-            <div class="mb-3">
-                <label>Autor Del Libro</label>
-                <input type="text" class="form-control" name="autor" autocomplete="off" placeholder="Ingresa el autor del libro" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="mb-3 my-2 m-5">
+                <label>Autor</label>
+                <input type="text" class="form-control" name="autor"  placeholder="Gabriel Gacia Marquez" >
             </div>
-            <div class="mb-3">
-                <label>Descripción Del Libro</label>
-                <input type="text" class="form-control" name="descripcion" autocomplete="off" placeholder="Ingresa la descripcion del libro" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="mb-3 my-2 m-5">
+                <label>Descripción</label>
+                <input type="text" class="form-control" name="descripcion" placeholder="Una obra literaria .....">
             </div>
-        
+        <div class="text-center my-5">
             <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+        </div>
+            
         </form>
     </div>
 

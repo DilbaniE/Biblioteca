@@ -17,17 +17,18 @@ include './php/conexion.php';
 
 
     <div class="container">
-    <h1 class="text-center my-3">Gestión De Libros Biblioteca</h1>
+    <h1 class="text-center my-3">Biblioteca Dilbani</h1>
         
         <button class="btn btn-primary my-5 text-white"><a class="text-white" href="./php/libro.php">Agregar Libro</a></button>
-        <table class="table">
+        <table class="table table-success table-dark">
             <thead>
+                <h2 class="text-center">Lista de Libros</h2>
                 <tr>
                     <th scope="col">Id</th>
                     <th scope="col">Titulo</th>
                     <th scope="col">Autor</th>
                     <th scope="col">Descripción</th>
-                    <th scope="col">Operaciones</th>
+                    <th scope="col" colspan="2">Operaciones</th>
                 </tr>
             </thead>
             <tbody>
